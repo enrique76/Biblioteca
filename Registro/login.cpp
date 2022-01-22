@@ -12,7 +12,7 @@ login::login(QWidget *parent) : QDialog(parent), ui(new Ui::login){
     db.setHostName("localhost");
     db.setDatabaseName("login");
     db.setPort(3306);
-    db.setPassword("6641164177");
+    db.setPassword("(contraseña)");
     db.setUserName("root");
 
     if(!db.open()){
