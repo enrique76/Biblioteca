@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>iconos/alemania.png</file>
+        <file>iconos/argentina.png</file>
+        <file>iconos/brazil.png</file>
+        <file>iconos/canada.png</file>
+        <file>iconos/china.png</file>
+        <file>iconos/colombia.png</file>
+        <file>iconos/espana.png</file>
+        <file>iconos/estados-unidos-de-america.png</file>
+        <file>iconos/francia.png</file>
+        <file>iconos/mexico.png</file>
+        <file>iconos/barra-lateral.png</file>
+        <file>iconos/libro.png</file>
+        <file>iconos/mas.png</file>
+        <file>iconos/eliminar.png</file>
+        <file>iconos/servidor.png</file>
+        <file>iconos/excel.png</file>
+        <file>iconos/calculadora.png</file>
+        <file>iconos/query-analysis.png</file>
+        <file>iconos/regreso.png</file>
+        <file>iconos/encontrar.png</file>
+        <file>iconos/escritor.png</file>
+        <file>iconos/jefe.png</file>
+        <file>iconos/transaccion.png</file>
+        <file>iconos/pdf.png</file>
+        <file>iconos/word.png</file>
+        <file>iconos/editar-informacion.png</file>
+        <file>iconos/recargar.png</file>
+        <file>iconos/recargarNotificacion.png</file>
+        <file>iconos/ojo-abierto.png</file>
+        <file>iconos/usuario.png</file>
+        <file>iconos/visibilidad.png</file>
+    </qresource>
+</RCC>

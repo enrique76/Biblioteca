@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="agregar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buscar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="agregar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="buscar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="agregar.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="buscar.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\alemania.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\argentina.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\barra-lateral.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\brazil.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\calculadora.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\canada.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\china.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\colombia.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\eliminar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\encontrar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\escritor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\espana.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\estados-unidos-de-america.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\excel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\francia.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="iconos.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="iconos\jefe.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\libro.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\mas.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\mexico.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\pdf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\query-analysis.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\regreso.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\servidor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\transaccion.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="iconos\word.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

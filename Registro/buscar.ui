@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Buscar</class>
+ <widget class="QDialog" name="Buscar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>729</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Buscar</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="iconos.qrc">
+    <normaloff>:/new/prefix1/iconos/servidor.png</normaloff>:/new/prefix1/iconos/servidor.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QComboBox" name="tabla"/>
+       </item>
+       <item>
+        <widget class="QComboBox" name="campo"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="dato"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ir">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="iconos.qrc">
+           <normaloff>:/new/prefix1/iconos/encontrar.png</normaloff>:/new/prefix1/iconos/encontrar.png</iconset>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableView" name="Datos">
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <attribute name="verticalHeaderVisible">
+        <bool>true</bool>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="NombreTabla">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="iconos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
