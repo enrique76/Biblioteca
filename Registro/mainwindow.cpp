@@ -131,7 +131,7 @@ void MainWindow::conectar()
     mDatabase.setDatabaseName("pruebaplatzi");
     mDatabase.setPort(3306);
     mDatabase.setUserName("root");
-    mDatabase.setPassword("6641164177");
+    mDatabase.setPassword("(contraseña)");
 
     if(!mDatabase.open()){
         QMessageBox::critical(this,"Error",mDatabase.lastError().text());
